@@ -22,6 +22,10 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+  padding: 0;
+}
 .content {
   padding: 160px 20px;
 }
@@ -107,6 +111,32 @@ nav a:hover {
   color: var(--branding-color);
   transition: all 150ms ease-in-out;
 }
+.footer {
+  margin-top: 20px;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+footer .social-link a {
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin: 0 20px;
+  transition: all 200ms ease-in-out;
+}
+footer .social-link a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
 @media (max-width: 767px) {
   .project-description {
     padding: 10px 10px;
@@ -122,8 +152,17 @@ nav a:hover {
   h2 {
     font-size: 30px;
   }
+  h4 {
+    font-size: 30px;
+  }
+  .btn-branding {
+    font-size: 14px;
+  }
   .content {
     text-align: center;
     padding: 0;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
